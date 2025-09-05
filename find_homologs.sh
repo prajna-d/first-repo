@@ -9,5 +9,3 @@ tblastn -query "$query_file" -subject "$subject_file" -outfmt "6 pident length q
 
 #Print the number of matches identified to stdout
 awk 'END{print NR}' "$output_file"
-
-#reverse commit
